@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Detalles que enamoran">
+  <defs>
+    <linearGradient id="f" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#FBF3E9"/>
+      <stop offset="1" stop-color="#F3E3D2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#f)"/>
+  <circle cx="517.0" cy="222.5" r="33.2" fill="#E3AFAC" opacity="0.9"/><circle cx="570.5" cy="190.4" r="41.8" fill="#C99A46" opacity="0.9"/><circle cx="633.2" cy="206.5" r="29.5" fill="#B4593A" opacity="0.9"/><circle cx="680.3" cy="246.6" r="37.5" fill="#F0D2C4" opacity="0.9"/><circle cx="533.1" cy="286.8" r="26.8" fill="#E3AFAC" opacity="0.9"/><circle cx="608.0" cy="270.7" r="49.3" fill="#C99A46" opacity="0.9"/><circle cx="661.6" cy="305.6" r="24.1" fill="#B4593A" opacity="0.9"/><circle cx="592.0" cy="324.3" r="32.1" fill="#F0D2C4" opacity="0.9"/>
+  <text x="600" y="428" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="47" fill="#4A342B">Detalles que enamoran</text>
+  <text x="600" y="478" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-size="26" fill="#4A342B" opacity="0.62">Foto provisional</text>
+  <text x="600" y="516" text-anchor="middle" font-family="Verdana, Geneva, sans-serif" font-size="22" fill="#4A342B" opacity="0.62">og-portada.svg</text>
+</svg>

@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="es-CL">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Detalles que enamoran · Decoración artesanal para celebraciones</title>
+<meta name="description" content="Decoración artesanal y personalizada para cumpleaños, graduaciones, aniversarios, baby showers y fechas especiales. Hecho a mano por Claudia. Escríbeme y lo diseñamos juntas.">
+<meta name="theme-color" content="#B4593A">
+
+<!-- ============================================================
+     PARA COMPARTIR EN WHATSAPP Y REDES
+     Cuando la web esté publicada, cambia las dos líneas marcadas
+     con "TU DIRECCIÓN" por la dirección real de tu web, por ejemplo:
+     https://claudia.github.io/detalles-que-enamoran/
+     ============================================================ -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Detalles que enamoran">
+<meta property="og:title" content="Detalles que enamoran · Decoración artesanal para celebraciones">
+<meta property="og:description" content="Decoración hecha a mano y pensada para tu celebración. Cuéntame tu idea y la montamos.">
+<meta property="og:locale" content="es_CL">
+<!-- TU DIRECCIÓN (imagen para compartir) -->
+<meta property="og:image" content="assets/img/og-portada.svg">
+<meta property="og:image:alt" content="Detalles que enamoran · decoración artesanal para celebraciones">
+<!-- TU DIRECCIÓN (dirección de la web) -->
+<meta property="og:url" content="">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Icono de la pestaña del navegador (va dentro del propio archivo, no hace falta subir nada) -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23FBF3E9'/%3E%3Ccircle cx='11' cy='12' r='6' fill='%23B4593A'/%3E%3Ccircle cx='21' cy='14' r='5' fill='%23E3AFAC'/%3E%3Ccircle cx='15.5' cy='21' r='4.5' fill='%23C99A46'/%3E%3C/svg%3E">
+
+<!-- Tipografías (display=swap para que el texto se vea desde el primer momento) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="salta-al-contenido" href="#contenido">Saltar al contenido</a>
+
+<!-- =====================================================================
+     CABECERA
+     ===================================================================== -->
+<header class="cabecera" id="cabecera">
+  <div class="contenedor cabecera__fila">
+    <a class="marca" href="#inicio">
+      <span class="marca__icono" aria-hidden="true">
+        <svg viewBox="0 0 40 40" width="34" height="34">
+          <circle cx="14" cy="15" r="8" fill="var(--terracota)"/>
+          <circle cx="27" cy="17" r="6.5" fill="var(--rosa)"/>
+          <circle cx="19.5" cy="27" r="6" fill="var(--dorado)"/>
+        </svg>
+      </span>
+      <span class="marca__texto">
+        <span class="marca__nombre">Detalles que enamoran</span>
+        <span class="marca__bajada">decoración artesanal</span>
+      </span>
+    </a>
+
+    <button class="menu-boton" id="menuBoton" aria-expanded="false" aria-controls="menuPrincipal">
+      <span class="menu-boton__barras" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="visualmente-oculto">Abrir menú</span>
+    </button>
+
+    <nav class="menu" id="menuPrincipal" aria-label="Menú principal">
+      <ul>
+        <li><a href="#ocasiones">Ocasiones</a></li>
+        <li><a href="#galeria">Decoraciones</a></li>
+        <li><a href="#proceso">Cómo trabajo</a></li>
+        <li><a href="#claudia">Sobre mí</a></li>
+        <li><a href="#preguntas">Preguntas</a></li>
+        <li><a class="menu__cta" href="#contacto">Pide tu presupuesto</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenido">
+
+<!-- =====================================================================
+     1 · PORTADA
+     ===================================================================== -->
+<section class="portada" id="inicio">
+  <div class="contenedor portada__reja">
+
+    <div class="portada__texto">
+      <p class="antetitulo">Hecho a mano en Chile</p>
+      <h1>Que al abrir la puerta se les escape un <em>“wow”</em>.</h1>
+      <p class="portada__frase">
+        Decoración artesanal y personalizada para cumpleaños, graduaciones, aniversarios
+        y todas esas fechas que no se repiten. La pienso contigo, la armo a mano y te la dejo
+        montada.
+      </p>
+      <div class="portada__botones">
+        <a class="boton boton--principal js-wa"
+           data-wa-mensaje="¡Hola Claudia! Vi tu página y quiero pedirte un presupuesto para una decoración."
+           href="#contacto">
+          Pide tu presupuesto por WhatsApp
+        </a>
+        <a class="boton boton--secundario" href="#galeria">Ver decoraciones</a>
+      </div>
+      <ul class="portada__sellos">
+        <li>Diseñado contigo, no de catálogo</li>
+        <li>Te acompaño desde la idea hasta el montaje</li>
+        <li>Agenda limitada por fecha</li>
+      </ul>
+    </div>
+
+    <div class="portada__fotos" aria-hidden="false">
+      <figure class="portada__foto portada__foto--1">
+        <img src="assets/img/deco-corazon-san-valentin.jpg" width="899" height="1599" loading="eager" decoding="async"
+             alt="Corazón gigante hecho con globos rojos sobre un escenario de madera, con una guirnalda de corazones colgando en el centro.">
+      </figure>
+      <figure class="portada__foto portada__foto--2">
+        <img src="assets/img/deco-titulacion-ufro.jpg" width="1396" height="1600" loading="lazy" decoding="async"
+             alt="Arco de globos celestes y blancos junto a un telón negro con el letrero Titulados UFRO 2025.">
+      </figure>
+      <figure class="portada__foto portada__foto--3">
+        <img src="assets/img/deco-graduacion-negro-dorado.jpg" width="899" height="1599" loading="lazy" decoding="async"
+             alt="Photocall con guirnalda de globos negros, dorados y plateados sobre un telón de flecos metálicos.">
+      </figure>
+    </div>
+
+  </div>
+</section>
+
+<!-- =====================================================================
+     2 · OCASIONES  (las tarjetas se cargan desde js/galeria.js)
+     ===================================================================== -->
+<section class="seccion seccion--crema" id="ocasiones">
+  <div class="contenedor">
+    <header class="seccion__cabecera reveal">
+      <p class="antetitulo">Ocasiones</p>
+      <h2>Si para ti es importante, para mí también</h2>
+      <p class="seccion__bajada">
+        No hay celebración demasiado chica. A veces es una mesa para dos y a veces es el salón
+        entero; el cariño que le pongo es el mismo.
+      </p>
+    </header>
+
+    <ul class="ocasiones" id="listaOcasiones">
+      <!-- Se rellena solo desde js/galeria.js -->
+    </ul>
+
+    <p class="seccion__pie reveal">
+      ¿Tu fecha no está en la lista? Da lo mismo, igual la celebramos.
+      <a class="enlace-suave js-wa" data-wa-mensaje="¡Hola Claudia! Quiero decorar una ocasión especial y quería contarte de qué se trata." href="#contacto">Cuéntame tu idea</a>.
+    </p>
+  </div>
+</section>
+
+<!-- =====================================================================
+     3 · GALERIA
+     ===================================================================== -->
+<section class="seccion" id="galeria">
+  <div class="contenedor">
+    <header class="seccion__cabecera reveal">
+      <p class="antetitulo">Decoraciones</p>
+      <h2>Mira lo que hemos armado</h2>
+      <p class="seccion__bajada">
+        Toca cualquier foto para verla grande. Los vídeos se reproducen al darles al play.
+      </p>
+    </header>
+
+    <div class="filtros" id="filtros" role="group" aria-label="Filtrar decoraciones por ocasión">
+      <!-- Se rellena solo desde js/galeria.js -->
+    </div>
+
+    <div class="mosaico" id="mosaico">
+      <!-- Se rellena solo desde js/galeria.js -->
+    </div>
+
+    <p class="mosaico__vacio" id="mosaicoVacio" hidden>
+      Todavía no tengo fotos publicadas de esta ocasión, pero sí la hago.
+      <a class="enlace-suave js-wa" data-wa-mensaje="¡Hola Claudia! Vi tu galería y quiero preguntarte por una ocasión que aún no tienes publicada." href="#contacto">Escríbeme y lo vemos</a>.
+    </p>
+  </div>
+</section>
+
+<!-- =====================================================================
+     4 · COMO TRABAJO
+     ===================================================================== -->
+<section class="seccion seccion--crema" id="proceso">
+  <div class="contenedor">
+    <header class="seccion__cabecera reveal">
+      <p class="antetitulo">Cómo trabajo</p>
+      <h2>Nunca has encargado decoración. No pasa nada.</h2>
+      <p class="seccion__bajada">
+        No necesitas tener nada decidido ni saber cómo se llama lo que quieres.
+        Con una foto que te gustó o un “quiero algo en dorado” ya partimos.
+      </p>
+    </header>
+
+    <ol class="pasos">
+      <li class="paso reveal">
+        <span class="paso__numero" aria-hidden="true">1</span>
+        <h3>Me escribes</h3>
+        <p>
+          Por WhatsApp, cuando puedas. Me cuentas qué se celebra, qué día y dónde.
+          Si tienes una foto que te gustó, mándamela; si no tienes nada, también sirve.
+        </p>
+      </li>
+      <li class="paso reveal">
+        <span class="paso__numero" aria-hidden="true">2</span>
+        <h3>Te propongo y te digo el precio</h3>
+        <p>
+          Te mando una idea con colores, tamaño y qué incluye, junto al valor.
+          Ajustamos lo que haga falta hasta que te guste. Sin compromiso mientras tanto.
+        </p>
+      </li>
+      <li class="paso reveal">
+        <span class="paso__numero" aria-hidden="true">3</span>
+        <h3>Reservamos tu fecha</h3>
+        <p>
+          Con un abono queda bloqueado tu día y ya nadie más lo toma.
+          Desde ahí me pongo a preparar todo a mano.
+        </p>
+      </li>
+      <li class="paso reveal">
+        <span class="paso__numero" aria-hidden="true">4</span>
+        <h3>Llego y lo monto</h3>
+        <p>
+          Voy antes de la hora, lo armo en el lugar y lo dejo listo para las fotos.
+          Tú solo te preocupas de recibir a la gente.
+        </p>
+      </li>
+    </ol>
+
+    <p class="seccion__pie reveal">
+      <a class="boton boton--principal js-wa"
+         data-wa-mensaje="¡Hola Claudia! Quiero empezar por el paso 1: contarte lo que necesito."
+         href="#contacto">Empecemos por el paso 1</a>
+    </p>
+  </div>
+</section>
+
+<!-- =====================================================================
+     5 · SOBRE CLAUDIA
+     ===================================================================== -->
+<section class="seccion" id="claudia">
+  <div class="contenedor sobre">
+    <figure class="sobre__foto reveal">
+      <img src="assets/img/deco-cumpleanos-dorado-mesa.jpg" width="1025" height="1134" loading="lazy" decoding="async"
+           alt="Mesa vestida de blanco con globos dorados y cobrizos, letrero de Feliz Cumpleaños y letras luminosas con las iniciales del cumpleañero.">
+    </figure>
+
+    <div class="sobre__texto reveal">
+      <p class="antetitulo">Sobre mí</p>
+      <h2>Hola, soy Claudia</h2>
+      <p>
+        Hago decoración artesanal para celebraciones. Artesanal de verdad: armo los globos uno a uno,
+        corto, pego y pruebo hasta que queda como lo imaginé. No trabajo con paquetes cerrados,
+        porque ningún cumpleaños se parece a otro.
+      </p>
+      <p>
+        Antes de montar nada te pregunto cosas: de qué color va el mantel, si hay una foto que
+        quieres poner, si el abuelito necesita pasar por ahí con el bastón. Esos detalles chicos son
+        los que hacen que la decoración se vea <em>hecha para ustedes</em> y no puesta encima.
+      </p>
+      <p>
+        Me gusta que la gente llegue y se quede callada un segundo antes de sacar el teléfono.
+        Ese segundo es todo el trabajo.
+      </p>
+      <p class="sobre__firma">
+        <a class="boton boton--secundario js-wa"
+           data-wa-mensaje="¡Hola Claudia! Leí tu página y quiero contarte lo que tengo en mente."
+           href="#contacto">Escríbeme y lo diseñamos juntas</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     6 · TESTIMONIOS  (contenido de ejemplo, se edita en js/galeria.js)
+     ===================================================================== -->
+<section class="seccion seccion--crema" id="testimonios" hidden>
+  <div class="contenedor">
+    <header class="seccion__cabecera reveal">
+      <p class="antetitulo">Lo que dicen</p>
+      <h2>Palabras de quienes ya celebraron</h2>
+    </header>
+    <ul class="testimonios" id="listaTestimonios">
+      <!-- Se rellena solo desde js/galeria.js -->
+    </ul>
+  </div>
+</section>
+
+<!-- =====================================================================
+     7 · PREGUNTAS FRECUENTES
+     Para cambiar una respuesta, edita directamente el texto de aquí abajo.
+     ===================================================================== -->
+<section class="seccion" id="preguntas">
+  <div class="contenedor contenedor--angosto">
+    <header class="seccion__cabecera reveal">
+      <p class="antetitulo">Preguntas frecuentes</p>
+      <h2>Lo que más me preguntan</h2>
+    </header>
+
+    <div class="faq" id="faq">
+
+      <details class="faq__item reveal">
+        <summary>¿Con cuánta anticipación tengo que avisarte?</summary>
+        <div class="faq__respuesta">
+          <p>
+            Mientras antes, mejor: lo ideal son dos o tres semanas, porque así alcanzo a conseguir
+            los colores exactos y a preparar las piezas con calma. Dicho eso, si tu fecha es esta
+            semana igual escríbeme: a veces tengo un hueco y se puede armar algo lindo igual.
+          </p>
+        </div>
+      </details>
+
+      <details class="faq__item reveal">
+        <summary>¿Puedo pedir algo con un tema o unos colores específicos?</summary>
+        <div class="faq__respuesta">
+          <p>
+            Sí, y de hecho es lo que más me gusta. Puedes pedirme un tema (fútbol, princesas,
+            los colores de la universidad, la paleta de la fiesta) o mandarme una foto de referencia.
+            Sobre eso te propongo cómo se vería con lo que hay disponible y adaptado a tu espacio.
+          </p>
+        </div>
+      </details>
+
+      <details class="faq__item reveal">
+        <summary>¿A qué zonas llegas?</summary>
+        <div class="faq__respuesta">
+          <p>
+            Trabajo con entrega y montaje en el lugar de la celebración. Escríbeme con la dirección
+            y te confirmo al tiro si llego y si el traslado tiene algún costo adicional.
+            Para lugares más lejos también se puede, conversándolo con tiempo.
+          </p>
+        </div>
+      </details>
+
+      <details class="faq__item reveal">
+        <summary>¿Cómo reservo mi fecha?</summary>
+        <div class="faq__respuesta">
+          <p>
+            Cuando ya estamos de acuerdo en la propuesta y el precio, con un abono queda bloqueado
+            tu día y no lo tomo con nadie más. El resto lo pagas el día del montaje.
+            No tomo dos montajes que se pisen en el mismo horario, así que las fechas más pedidas
+            (Día de la Madre, San Valentín, fin de año) se llenan primero.
+          </p>
+        </div>
+      </details>
+
+      <details class="faq__item reveal">
+        <summary>¿Cuánto cuesta?</summary>
+        <div class="faq__respuesta">
+          <p>
+            Depende del tamaño, de la cantidad de piezas y de si hay traslado y montaje.
+            Por eso no publico una lista de precios: prefiero mirar tu caso y darte un valor real,
+            sin sorpresas después. Cuéntame qué necesitas y te lo digo el mismo día.
+          </p>
+        </div>
+      </details>
+
+      <details class="faq__item reveal">
+        <summary>¿Se puede montar en mi casa o tiene que ser en un salón?</summary>
+        <div class="faq__respuesta">
+          <p>
+            Se puede en los dos. He montado en salones, en patios y en living de casa.
+            Mándame una foto del rincón donde lo quieres y con eso te digo qué entra bien
+            y qué conviene cambiar.
+          </p>
+        </div>
+      </details>
+
+      <details class="faq__item reveal">
+        <summary>¿Cuánto dura la decoración montada?</summary>
+        <div class="faq__respuesta">
+          <p>
+            Depende del tipo de globo y del lugar. Los montajes armados con estructura aguantan
+            perfectamente el día de la celebración y normalmente varios días más, siempre que estén
+            bajo techo y lejos del sol directo y del calor. Al momento de entregarte el montaje te
+            explico cómo cuidarlo para que te dure lo máximo posible.
+          </p>
+        </div>
+      </details>
+
+    </div>
+  </div>
+</section>
+
+<!-- =====================================================================
+     8 · CONTACTO
+     ===================================================================== -->
+<section class="seccion seccion--oscura" id="contacto">
+  <div class="contenedor contacto">
+
+    <div class="contacto__texto reveal">
+      <p class="antetitulo antetitulo--claro">Reserva tu fecha</p>
+      <h2>Cuéntame qué celebras</h2>
+      <p>
+        Rellena estos cuatro campos y se abre WhatsApp con el mensaje ya escrito.
+        Solo tienes que darle a enviar. Si prefieres, escríbeme directamente.
+      </p>
+
+      <ul class="contacto__datos">
+        <li>
+          <span class="contacto__etiqueta">WhatsApp y teléfono</span>
+          <a class="contacto__dato" id="enlaceTelefono" href="tel:+56956569190">+56 9 5656 9190</a>
+        </li>
+        <li>
+          <span class="contacto__etiqueta">Correo</span>
+          <a class="contacto__dato" id="enlaceCorreo" href="mailto:silvaclauzv80@gmail.com">silvaclauzv80@gmail.com</a>
+        </li>
+      </ul>
+
+      <p class="contacto__nota">
+        Respondo yo misma, no hay un robot al otro lado.
+      </p>
+    </div>
+
+    <form class="formulario reveal" id="formularioContacto" novalidate>
+      <div class="campo">
+        <label for="campoNombre">Tu nombre</label>
+        <input type="text" id="campoNombre" name="nombre" autocomplete="name" required
+               placeholder="Ej.: Camila">
+        <p class="campo__error" id="errorNombre" hidden>Escribe tu nombre para saber cómo llamarte.</p>
+      </div>
+
+      <div class="campo">
+        <label for="campoOcasion">¿Qué celebras?</label>
+        <select id="campoOcasion" name="ocasion" required>
+          <option value="">Elige una opción</option>
+          <!-- Las opciones se cargan solas desde js/galeria.js -->
+          <option value="Otra ocasión">Otra ocasión</option>
+        </select>
+        <p class="campo__error" id="errorOcasion" hidden>Cuéntame qué celebras.</p>
+      </div>
+
+      <div class="campo">
+        <label for="campoFecha">¿Qué día es? <span class="campo__opcional">(si aún no lo sabes, déjalo en blanco)</span></label>
+        <input type="date" id="campoFecha" name="fecha">
+      </div>
+
+      <div class="campo">
+        <label for="campoMensaje">Cuéntame tu idea <span class="campo__opcional">(opcional)</span></label>
+        <textarea id="campoMensaje" name="mensaje" rows="4"
+                  placeholder="Colores, lugar, cuántas personas, alguna foto que te gustó…"></textarea>
+      </div>
+
+      <button type="submit" class="boton boton--principal boton--ancho">
+        Abrir WhatsApp con mi mensaje
+      </button>
+
+      <p class="formulario__aviso">
+        No se envía nada por correo: se abre tu WhatsApp con el mensaje escrito
+        y tú decides si lo mandas.
+      </p>
+    </form>
+
+  </div>
+</section>
+
+</main>
+
+<!-- =====================================================================
+     PIE DE PAGINA
+     ===================================================================== -->
+<footer class="pie">
+  <div class="contenedor pie__reja">
+    <div>
+      <p class="pie__marca">Detalles que enamoran</p>
+      <p class="pie__bajada">Decoración artesanal y personalizada para celebraciones.</p>
+    </div>
+    <ul class="pie__datos">
+      <li><a id="pieTelefono" href="tel:+56956569190">+56 9 5656 9190</a></li>
+      <li><a id="pieCorreo" href="mailto:silvaclauzv80@gmail.com">silvaclauzv80@gmail.com</a></li>
+      <li><a class="js-wa" data-wa-mensaje="¡Hola Claudia! Te escribo desde tu página web." href="#contacto">Escríbeme por WhatsApp</a></li>
+    </ul>
+    <p class="pie__legal">© <span id="anio">2026</span> Detalles que enamoran · Hecho a mano en Chile</p>
+  </div>
+</footer>
+
+<!-- Botón flotante de WhatsApp -->
+<a class="wa-flotante js-wa"
+   data-wa-mensaje="¡Hola Claudia! Vi tu página y quiero pedirte una decoración."
+   href="#contacto">
+  <svg viewBox="0 0 24 24" width="26" height="26" aria-hidden="true" focusable="false">
+    <path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.9-4.45 9.9-9.91C21.95 6.45 17.5 2 12.04 2Zm5.8 14.13c-.24.68-1.42 1.31-1.96 1.36-.5.05-.97.23-3.27-.68-2.75-1.08-4.5-3.9-4.64-4.08-.13-.18-1.11-1.48-1.11-2.82s.7-2 .95-2.28c.25-.27.54-.34.72-.34.18 0 .36 0 .52.01.17.01.4-.6.61.47.24.55.8 1.9.87 2.04.07.14.12.3.02.48-.09.18-.14.29-.28.45-.14.16-.29.35-.41.47-.14.14-.28.28-.12.55.16.27.71 1.17 1.53 1.9 1.05.94 1.94 1.22 2.21 1.36.27.14.43.11.59-.07.16-.18.68-.79.86-1.07.18-.27.36-.22.61-.13.25.09 1.59.75 1.86.89.27.14.45.2.52.32.07.11.07.64-.17 1.31Z"/>
+  </svg>
+  <span class="wa-flotante__texto">WhatsApp</span>
+  <span class="visualmente-oculto">Escríbeme por WhatsApp</span>
+</a>
+
+<!-- =====================================================================
+     LIGHTBOX (la ventana que amplía las fotos)
+     ===================================================================== -->
+<div class="lupa" id="lupa" role="dialog" aria-modal="true" aria-label="Foto ampliada" hidden>
+  <div class="lupa__fondo" data-cerrar-lupa></div>
+  <div class="lupa__caja">
+    <div class="lupa__medio" id="lupaMedio"></div>
+    <p class="lupa__pie" id="lupaPie"></p>
+    <button class="lupa__boton lupa__boton--cerrar" id="lupaCerrar" type="button">
+      <span aria-hidden="true">×</span><span class="visualmente-oculto">Cerrar</span>
+    </button>
+    <button class="lupa__boton lupa__boton--anterior" id="lupaAnterior" type="button">
+      <span aria-hidden="true">‹</span><span class="visualmente-oculto">Anterior</span>
+    </button>
+    <button class="lupa__boton lupa__boton--siguiente" id="lupaSiguiente" type="button">
+      <span aria-hidden="true">›</span><span class="visualmente-oculto">Siguiente</span>
+    </button>
+  </div>
+</div>
+
+<!-- Ficha para Google (se completa sola con los datos de js/galeria.js) -->
+<script type="application/ld+json" id="fichaGoogle">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Detalles que enamoran",
+  "description": "Decoración artesanal y personalizada para cumpleaños, Día de la Madre, Día del Padre, jubilaciones, aniversarios, baby showers, bautizos, graduaciones, San Valentín y eventos de empresa.",
+  "telephone": "+56956569190",
+  "email": "silvaclauzv80@gmail.com",
+  "areaServed": "Chile",
+  "address": { "@type": "PostalAddress", "addressCountry": "CL" },
+  "knowsLanguage": "es-CL"
+}
+</script>
+
+<script src="js/galeria.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
